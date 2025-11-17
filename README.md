@@ -16,6 +16,8 @@ Docuchat is an intelligent document chatbot that allows you to upload documents 
 
 📱 Responsive Design: Works seamlessly on different screen sizes
 
+
+
 📋 Prerequisites
 Before running Docuchat, ensure you have:
 
@@ -26,15 +28,13 @@ Google Gemini API key
 Required Python packages
 
 🛠️ Installation
-1. Clone or Download the Project
-bash
 
+1. Clone or Download the Project
 # If using git
 git clone https://github.com/Ajinkya47/Document-Chatbot.git
-cd ajinkya47-document-chatbot
 
 2. Set Up Virtual Environment (Recommended)
-bash
+   
 # Create virtual environment
 python -m venv myenv
 
@@ -42,7 +42,8 @@ python -m venv myenv
 myenv\Scripts\activate
 
 3. Install Dependencies
-4. pip install -r requirements.txt
+pip install -r requirements.txt
+
 5. Set Up Environment Variables
 Create a .env file in the project root directory and add your Gemini API key:
 
@@ -54,14 +55,17 @@ PDF (.pdf) - Extracts text from PDF documents
 
 DOCX (.docx) - Reads Microsoft Word documents
 
-TXT (.txt) - Processes plain text files
+TXT (.txt) - Processes plain text file
 
 🚀 Usage
+
 Running the Application
+
 streamlit run app.py
 The application will open in your default web browser at http://localhost:8501
 
 How to Use
+
 Upload Document: Click "Upload Your Document" and select a PDF, DOCX, or TXT file
 
 Ask Questions: Type your question in the chat input field
